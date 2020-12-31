@@ -31,6 +31,8 @@ const GlobalStyles = createGlobalStyle`
   }
   body {
     line-height: 1;
+    overflow: hidden;
+    background: var(--main-color);
   }
   ol, ul {
     list-style: none;
@@ -51,7 +53,6 @@ const GlobalStyles = createGlobalStyle`
     box-sizing: border-box;
   }
   body {
-    background: var(--background-color);
     line-height: 1;
     font-size: 100%;
     font-family:  var(--primary-font);

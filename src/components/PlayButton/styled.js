@@ -13,6 +13,7 @@ export const Container = styled.div`
     border-radius: 50%;
     transition: all ease-in-out 300ms;
     color: #fff;
+    cursor: pointer;
 
     &:hover {
       box-shadow: 0 0 20px var(--secondary-color);
